@@ -1,0 +1,45 @@
+engine:
+  name: "PriorityEngine"
+  engines:
+    - name: "TextsynthEngine"
+      model: "gptj_6B"
+      api_key: "842a11464f81fc8be43ac76fb36426d2"
+    - name: "EleutherEngine"
+      model: "GPT-J-6B"
+
+stop_string: "\n"
+temperature: 0.95
+top_p: 0.9
+top_k: 50
+max_generated_tokens: 200
+seed: 0
+force_safety: false
+on_stream: null
+prompt: |
+  Original Text: Getting maximum value from IT is as much about how you manage it as it is about investing in it. From a business perspective it is about harmonizing IT; organizing IT; managing IT (Curley 2004), and identifying the value delivered to the organization (Prahalad and Hamel 1990, Sward and Haas 2003). Link this to UXD to deliver what the market wants and you have the basis for a competitive advantage (Sward 2006a). Understand how to do it continually and you have a sustainable competitive advantage to assist the corporate strategy (Porter 1987, Hamel and Prahalad 1994). Strategy one focuses on understanding the value delivered by solutions, strategy two focuses on getting UCD skills embedded in the organization, and strategy three focuses on effectively managing the UXD capability
+
+  Paraphrased Text: To get the optimized value from IT to provide competitive advantage in the current business environment, management is the most important aspect. In a competitive world, we need businesses to help their best and brightest realize the greatest contribution. UXD (User Experience Design) is instrumental in helping us to deliver on this and get the maximum value from it. Doing this requires helping to manage the impact of this change on its activities in a practical way by helping them to communicate cross-functionally.
+
+  ---
+  
+  Original Text: To execute this strategy, organizations need to employ a consistent, repeatable, and objective process that measures forecasted and delivered value as defined by the customers and users. There are many approaches for quantifying IT returns. In e-commerce management, using a systematic value-driven analysis approach is aligned with maximizing value creation and minimizing loss to increase business performance (Hahn et al. 2002).
+
+  Paraphrased Text: This strategy requires a systematic way of ensuring that IT (Information Technology) is delivering value to the organization, and doing it in a way that is objective, repeatable, and consistent. This can be achieved by measuring the value being delivered, the value that customers and users consider important to them, and the expected value. There are many approaches to quantifying IT value. Measuring value using a value chain approach is aligned with maximizing value creation and minimizing loss to improve the businesses performance.
+
+  ---
+
+  Original Text: Artificial intelligence (AI) is a wide-ranging branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.
+
+  Paraphrased Text: AI (Artificial Intelligence) is a broad discipline of computer science that involves building intelligent machines capable of doing tasks that traditionally need human intelligence.
+
+  ---
+  
+  Original Text: Health care or healthcare is the maintenance or improvement of health via the prevention, diagnosis, treatment, amelioration, or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields. Medicine, dentistry, pharmacy, midwifery, nursing, optometry, audiology, psychology, occupational therapy, physical therapy, athletic training, and other health professions are all part of health care. It includes work done in providing primary care, secondary care, and tertiary care, as well as in public health.
+  
+  Paraphrased Text: The prevention, diagnosis, treatment, amelioration, or cure of disease, illness, injury, and other physical and mental disabilities in individuals is referred to as health care or healthcare. Health care is provided by specialists in the medical and allied health sectors. Health professionals include doctors, dentists, pharmacists, midwives, nurses, optometrists, audiologists, psychologists, occupational therapists, physical therapists, athletic trainers, and others. It encompasses work in primary care, secondary care, and tertiary care, as well as public health.
+  
+  ---
+
+  Original Text: {{text}}
+
+  Paraphrased Text:
