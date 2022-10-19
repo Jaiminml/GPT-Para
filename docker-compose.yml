@@ -1,0 +1,13 @@
+---
+version: '3'
+services:
+  st-paraphrase:
+    build: .
+    container_name: st-paraphrase
+    restart: unless-stopped
+    ports:
+    - 51002:8501
+    volumes:
+    - .:/app
+    environment:
+    - TZ=Asia/Jakarta

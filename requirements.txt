@@ -1,0 +1,5 @@
+git+https://github.com/lodorg/easytextgen
+streamlit
+translate
+requests
+tinydb
